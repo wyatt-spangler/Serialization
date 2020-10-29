@@ -23,7 +23,7 @@ namespace Serialization
             Console.WriteLine($"Employee ID: {emp.ID} /nEmployee Name: {emp.Name}/nEmployee SS#: {emp.SSNumber}/nDate Created: {emp.EntryDate}");
 
             string FilePath = "C:/Temp/";
-            string FileName = "Ninja.nml";
+            string FileName = "Ninja.xml";
 
             TextWriter writer = new StreamWriter(FilePath + FileName);
 
